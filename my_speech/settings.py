@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'my_speech.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test23',
-        'USER': 'postgresql',
-        'PASSWORD': 'myspeech',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432'
     }
