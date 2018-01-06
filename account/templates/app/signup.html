@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+</head>
+<body>
+{% if signup_failed %}
+    {{ signup_failed }}
+{% endif %}
+
+<form method="POST" action="/signup">{% csrf_token %}
+    <div>{{ errors.password }}</div><label>пароль:{{ form.password }}</label><br/>
+    <div>{{ errors.re_password }}</div><label>повторите пароль:{{ form.re_password }}</label><br/>
+    <div>{{ errors.username }}</div><label>имя на сайте:{{ form.username }}</label><br/>
+    <div>{{ errors.email }}</div><label>емейл{{ form.email }}</label><br/>
+    <br/>
+    <input type="submit" value="регистрация">
+</form>
+</body>
+</html>

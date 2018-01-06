@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страницы ил ца ы?</title>
+</head>
+<body>
+{% if is_auth %}
+<a href="/">{{ username }}</a><span style="width:23px; display: block;"></span><a href="/logout">выйти</a>
+{% else %}
+<a href="/signup">регистрация</a>
+<a href="/login">вход</a>
+{% endif %}
+</body>
+</html>
