@@ -26,4 +26,84 @@ body textarea:required:valid {
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
+	width: 100%;
 }
+.header{
+	margin: 60px auto;
+}
+.header .logo{
+	font-weight: 300;
+	font-family: "Open Sans";
+	font-size: 36px;
+	height: 36px;
+	display: inline-block;
+	line-height: 36px;
+}
+.header .row div{
+	display: inline-block;
+}
+.header .logo .red-dot{
+	width: 8px;
+	background-color: #FF2020;
+	height: 8px;
+	padding: 0;
+	margin: 0;
+	border-radius: 50px;
+	vertical-align: middle;
+}
+.header .upload{
+	position: relative;
+}
+.header .upload img{
+	height: 30px;
+	width: 25px;
+	position: absolute;
+	top: 5px;
+}
+.header .search-input{
+
+}
+
+.header .search-input .wrap-input{
+	margin-left: 30px;
+	margin-right: 13px;
+	height: 35px;
+	width: 254px;
+	position: relative;
+	border: 1px solid #CBCBCB;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.header .search-input .wrap-input input{
+	margin: 10px 0 10px 15px;
+	padding: 0;
+	border: None;
+	outline: none;
+	width: 205px;
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+}
+.header .search-input .wrap-input img{
+	position: absolute;
+	height: 14px;
+	top: 10px;
+	right: 14px;
+	width: 14px;
+}
+.header .workspace-user .user-ava {
+	border-radius: 50px;
+	margin-left: 10px;
+	height: 35px;
+	width: 35px;
+}
+.header .workspace-user{
+	margin: 0;
+	padding: 0;
+
+}
+.header .workspace-user a .notice{
+	width: 25px;
+}
+
