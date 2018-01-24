@@ -1,5 +1,55 @@
-$(document).ready(function() {
 
+$(document).ready(function() {
+	$('.track').on('mousemove', function(e){
+		e = e.target;
+		if(e.className == 'track active-track'){
+			return true;
+		}
+		if(e.className != 'track') {
+			e =  $(e).offsetParent();
+        }
+		$(e).addClass('active-track');
+        var r_inf = $(e).children().filter('.right-info');
+        r_inf.children('.time-of-track').css('display', 'none');
+        r_inf.children('.active-right').css('display', 'block');
+	});
+	$('.track').on('mouseleave', function(e){
+		e = e.target;
+		if(e.className != 'track active-track') {
+			e =  $(e).offsetParent();
+        }
+		$(e).removeClass('active-track');
+      	var r_inf = $(e).children().filter('.right-info');
+		r_inf.children('.time-of-track').css('display', 'block');
+		r_inf.children('.active-right').css('display', 'none');
+	});
+	$('.block-music').on('mousemove', function(e){
+		e = e.target;
+		if(e.className == 'block-music block-active-on'){
+			return true;
+		}
+		if(e.className != 'block-music') {
+			e =  $(e).offsetParent();
+        }
+        e.children('.info').children('#redline').css('background', '#FF3434');
+        e.addClass('block-music-on');
+        var r_inf = $(e).children().filter('.wrap-img');
+        var nab = r_inf.children('.no-active-block-music');
+		nab.removeClass('no-active-block-music');
+        nab.addClass('active-block-music');
+	});
+	$('.block-music').on('mouseleave', function(e){
+		e = e.target;
+		if(e.className != 'block-music block-music-on') {
+			e =  $(e).offsetParent();
+        }
+        e.children('.info').children('#redline').css('background', '#fff');
+        e.removeClass('block-music-on');
+        var r_inf = $(e).children().filter('.wrap-img');
+        var nab = r_inf.children('.active-block-music');
+		nab.removeClass('active-block-music');
+        nab.addClass('no-active-block-music');
+	});
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
