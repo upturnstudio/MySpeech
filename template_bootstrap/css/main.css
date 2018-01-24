@@ -23,8 +23,127 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+img{
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
 body {
-	font-family: "OpenSans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
-    font-weight: "extra-bold";
+    font-weight: 400;
+	width: 100%;
+}
+.header{
+	margin: 60px auto;
+}
+.header .logo{
+	font-weight: 300;
+	font-family: "Open Sans", sans-serif;
+	font-size: 36px;
+	height: 36px;
+	display: inline-block;
+	line-height: 36px;
+}
+.header .row div{
+	display: inline-block;
+}
+.header .logo .first-word{
+    margin-left: -2px;
+}
+.header .logo .red-dot{
+	width: 8px;
+	background-color: #FF2020;
+	height: 8px;
+	padding: 0;
+	margin: 0;
+	border-radius: 50px;
+	vertical-align: middle;
+}
+.header .upload{
+	position: relative;
+}
+.header .upload img{
+	height: 30px;
+	width: 25px;
+	position: absolute;
+	top: 5px;
+    right: 80px;
+}
+.header .search-input .wrap-input{
+
+	height: 35px;
+	width: 254px;
+	position: relative;
+	border: 1px solid #CBCBCB;
+	border-radius: 5px;
+}
+.header .search-input .wrap-input input{
+	margin: 7px 0 7px 15px;
+	padding: 0;
+	border: None;
+	outline: none;
+	width: 205px;
+	font-size: 14px;
+	height: 20px;
+}
+.header .search-input .wrap-input img{
+	position: absolute;
+	height: 14px;
+	top: 10px;
+	right: 14px;
+	width: 14px;
+}
+.header .workspace-user .user-ava {
+	border-radius: 50px;
+	margin-left: 10px;
+	height: 35px;
+	width: 35px;
+}
+.header .workspace-user{
+	margin: 0;
+	padding:0;
+}
+.header .workspace-user a .notice{
+	width: 25px;
+}
+footer{
+    background-color: #E6E6E6;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer .documentation ul li{
+    padding-right: 5px;
+}
+footer .documentation ul li a{
+    font-weight: 400;
+    color: #919191;
+    font-size: 18px;
+}
+
+
+footer .logo .name-team{
+    width: 80px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #919191;
+}
+footer .language{
+    text-transform: uppercase;
+}
+footer .language a{
+    color: #919191;
 }
