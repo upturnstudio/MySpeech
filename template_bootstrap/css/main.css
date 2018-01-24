@@ -341,8 +341,12 @@ footer .logo .name-team{
     font-weight: 800;
     color: #919191;
 }
-
-
+footer .language{
+    text-transform: uppercase;
+}
+footer .language a{
+    color: #919191;
+}
 
 
 

@@ -5,31 +5,56 @@
 .header .upload a img{
         right: 40px;
     }
-
+.news-albums .audio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .news-albums .audio .block-music{
+        margin: 0 auto 20px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    .header .search-input .wrap-input{
+    .header .search-input .wrap-input {
         width: 154px;
         font-size: 12px;
     }
-    .header .search-input .wrap-input input{
+
+    .header .search-input .wrap-input input {
         width: 105px;
     }
-    .header .row{
+
+    .header .row {
         display: block;
     }
-    .header .row .util{
-        display: none;
+
+    .header .row .util {
     }
-    .header .upload a img{
+
+    .header .upload a img {
         right: 40px;
     }
 
+    .header .workspace-user {
+
+    }
+
+    .header .workspace-user a:first-child {
+        margin-left: 35px;
+    }
+    .news-albums .audio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .news-albums .audio .block-music{
+        margin: 0 auto 20px;
+    }
 }
-
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
