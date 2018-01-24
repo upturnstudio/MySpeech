@@ -38,3 +38,23 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: "OpenSansLight";
+	src: url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+}
+@font-face {
+	font-family: "OpenSansSemiBold";
+	src: url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+}
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+}
+@font-face {
+	font-family: "OpenSansExtraBold";
+	src: url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+}
