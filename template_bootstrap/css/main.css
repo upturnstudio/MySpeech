@@ -386,14 +386,17 @@ footer .language a{
     margin-left: 0.4%;
 }
 .signup .other{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px 90px;
+    width: 100%;
+    padding: 20px 0 ;
+}
+.signup .other .other-wrap{
+    margin: 0 auto;
+    width: 190px;
 }
 .signup .other a{
     display: inline-block;
     padding: 6px 15px;
+    margin: 0 5px;
     border-radius: 7px;
     box-shadow: 0 0 18px 1px rgba(0,0,0,0.1);
 }

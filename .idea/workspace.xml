@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85ac4ac-bfc3-4072-8dac-0f438fb58f8b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/template_bootstrap/css/main.css" afterPath="$PROJECT_DIR$/template_bootstrap/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/template_bootstrap/js/common.js" afterPath="$PROJECT_DIR$/template_bootstrap/js/common.js" />
       <change beforePath="$PROJECT_DIR$/template_bootstrap/signin.html" afterPath="$PROJECT_DIR$/template_bootstrap/signin.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6947917">
+    <splitter split-orientation="horizontal" split-proportion="0.4726918">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
@@ -31,8 +29,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/template_bootstrap/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8190">
-                  <caret line="459" column="22" lean-forward="true" selection-start-line="459" selection-start-column="22" selection-end-line="459" selection-end-column="22" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -52,7 +50,7 @@
             <entry file="file://$PROJECT_DIR$/template_bootstrap/signin.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="724">
-                  <caret line="67" column="36" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+                  <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -62,21 +60,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/template_bootstrap/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1123">
+                <state relative-caret-position="756">
                   <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/template_bootstrap/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="397" column="43" lean-forward="false" selection-start-line="397" selection-start-column="43" selection-end-line="397" selection-end-column="43" />
+                <state relative-caret-position="273">
+                  <caret line="389" column="15" lean-forward="false" selection-start-line="389" selection-start-column="15" selection-end-line="389" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -121,8 +119,8 @@
         <option value="$PROJECT_DIR$/template_bootstrap/index.html" />
         <option value="$PROJECT_DIR$/template_bootstrap/css/media.css" />
         <option value="$PROJECT_DIR$/template_bootstrap/js/common.js" />
-        <option value="$PROJECT_DIR$/template_bootstrap/signin.html" />
         <option value="$PROJECT_DIR$/template_bootstrap/css/main.css" />
+        <option value="$PROJECT_DIR$/template_bootstrap/signin.html" />
       </list>
     </option>
   </component>
@@ -357,22 +355,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template_bootstrap/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template_bootstrap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8190">
-          <caret line="459" column="22" lean-forward="true" selection-start-line="459" selection-start-column="22" selection-end-line="459" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template_bootstrap/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -389,18 +371,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template_bootstrap/signin.html">
+    <entry file="file://$PROJECT_DIR$/template_bootstrap/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="67" column="36" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+        <state relative-caret-position="273">
+          <caret line="389" column="15" lean-forward="false" selection-start-line="389" selection-start-column="15" selection-end-line="389" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template_bootstrap/css/main.css">
+    <entry file="file://$PROJECT_DIR$/template_bootstrap/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="397" column="43" lean-forward="false" selection-start-line="397" selection-start-column="43" selection-end-line="397" selection-end-column="43" />
+        <state relative-caret-position="756">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_bootstrap/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding />
         </state>
       </provider>
