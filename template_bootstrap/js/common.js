@@ -50,6 +50,13 @@ $(document).ready(function() {
 		nab.removeClass('active-block-music');
         nab.addClass('no-active-block-music');
 	});
+
+    $('.signup-input').on('focus', function(e){
+        $(this).parent().css('background', '#EAEAEA');
+    });
+    $('.signup-input').on('blur', function(e){
+       $(this).parent().css('background', '#FFF');
+    });
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
